@@ -1,0 +1,7 @@
+{
+  "name": "cam-prev",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

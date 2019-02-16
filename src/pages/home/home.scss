@@ -1,0 +1,52 @@
+page-home {
+    .bar{
+        transform: translateX(456%);
+        position: relative;
+        height: 100%;
+        width: 18%;
+        background-color: black;
+        opacity: .6;
+        z-index: -1;
+       
+    }
+    .controls{
+        position: absolute;
+        transform: translateX(456%);
+        height: 100%;
+        width: 18%;
+        z-index: 2;
+      
+    }
+    .controls ion-icon:nth-child(1){
+        transform: translateY(155%) translateX(15%);
+        position: relative;
+        color: white;
+        font-size: 550%;
+        
+    }
+    .controls ion-icon:nth-child(2){
+       
+        font-size: 300%;
+        transform: translateX(-100%) translateY(500%) ;
+        color: white;
+    }
+    .brows{
+        color: white;
+        position: absolute;
+        z-index: -1;
+        font-size: 400%;
+        transform: translateX(60%) translateY(50%);
+        opacity: .6;
+        height: 45%;
+        width: 50%;
+        align-items: center;
+    }
+    .brows ion-icon:nth-child(2){
+        transform: rotate(90deg) translateX(150%) ;
+    }
+    .brows ion-icon:nth-child(odd){
+     transform: scale(1.3);
+      
+    }
+    
+}
